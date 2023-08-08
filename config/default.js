@@ -17,10 +17,6 @@ module.exports = {
     hostname: process.env.API_HOSTNAME,
   },
   constants: {
-    api: {
-      P1_API_KEY: process.env.P1_API_KEY,
-      P2_API_KEY: process.env.P2_API_KEY,
-    },
     http: {
       OK_STATUS: 200,
       BAD_REQUEST:400,
